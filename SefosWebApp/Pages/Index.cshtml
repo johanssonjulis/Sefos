@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form method="post">
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" name="emailSender">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Ämne</label>
+        <input type="text" class="form-control" name="emailSubject">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Meddelande</label>
+        <input type="text" class="form-control" name="emailBody">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Skicka"/>
+</form>
+

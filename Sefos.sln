@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SefosWebApp", "SefosWebApp\SefosWebApp.csproj", "{21B15403-0C2C-495E-8400-CB61E62CA31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SefosApi", "SefosApi1\SefosApi.csproj", "{417C2300-1608-45CD-AD40-CA6E03DE42EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21B15403-0C2C-495E-8400-CB61E62CA31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B15403-0C2C-495E-8400-CB61E62CA31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B15403-0C2C-495E-8400-CB61E62CA31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B15403-0C2C-495E-8400-CB61E62CA31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417C2300-1608-45CD-AD40-CA6E03DE42EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417C2300-1608-45CD-AD40-CA6E03DE42EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417C2300-1608-45CD-AD40-CA6E03DE42EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417C2300-1608-45CD-AD40-CA6E03DE42EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C156F900-0851-4F9A-B81C-08246200CAD5}
+	EndGlobalSection
+EndGlobal
